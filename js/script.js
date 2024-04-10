@@ -62,23 +62,79 @@
 // console.log(2 + 2 * 2 !== "6"); - оператор неравенства со строгой типизацией
 
 
-const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
+// const numberOfFilms = prompt("Сколько фильмов вы уже посмотрели?", "");
 
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+// const personalMovieDB = {
+//     count: numberOfFilms,
+//     movies: {},
+//     actors: {},
+//     genres: [],
+//     privat: false
+// };
 
-const a = prompt("Один из последних просмотренных фильмов?", ""),
-      b = +prompt("На сколько оцените его?", ""),
-      g = prompt("Один из последних просмотренных фильмов?", ""),
-      d = +prompt("На сколько оцените его?", "");
+// const a = prompt("Один из последних просмотренных фильмов?", ""),
+//       b = +prompt("На сколько оцените его?", ""),
+//       g = prompt("Один из последних просмотренных фильмов?", ""),
+//       d = +prompt("На сколько оцените его?", "");
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[g] = d;
+// personalMovieDB.movies[a] = b;
+// personalMovieDB.movies[g] = d;
 
-console.log(personalMovieDB);
+// console.log(personalMovieDB);
+
+
+//  let bonus = +prompt("Угадай число!", "")
+
+//  let bonus2 = bonus;
+
+// if (bonus == 99) {
+//     console.log("Поздравляем Вас! Вы угадали число " + bonus)
+// } else if (bonus > 90) {
+//     console.log("Почти угадали!")
+// } else {
+//     console.log("Неправильно, попробуйте ещё раз.")
+// }
+
+// (bonus2 == 99) ? console.log("Поздравляем Вас! Вы угадали число " + bonus) : console.log("Неправильно, попробуйте ещё раз.");
+
+
+// switch (bonus) {
+//     case 99:
+//         console.log("Поздравляем Вас! Вы угадали число " + bonus)
+//         break;
+//     case 90:
+//         console.log("Почти угадали!")
+//         break;
+//     case 50:
+//         console.log("Неправильно, попробуйте ещё раз.")
+//         break;
+    //    default:
+    //        console.log("Неправильно, попробуйте ещё раз.")
+// }
+
+
+// var select = document.querySelector("select");
+// var para = document.querySelector("p");
+
+// select.addEventListener("change", setWeather);
+
+// function setWeather() {
+//   var choice = select.value;
+
+//   if (choice === "sunny") {
+//     para.textContent =
+//       "Сегодня хорошо и солнечно. Носите шорты! Идите на пляж, или в парк, и купите мороженое.";
+//   } else if (choice === "rainy") {
+//     para.textContent =
+//       "Дождь падает за окном; возьмите плащ и зонт, и не находитесь слишком долго на улице.";
+//   } else if (choice === "snowing") {
+//     para.textContent =
+//       "Снег падает - морозно! Лучше всего посидеть с чашкой горячего шоколада или слепить снеговика.";
+//   } else if (choice === "overcast") {
+//     para.textContent =
+//       "Дождя нет, но небо серое и мрачное; он все может измениться в любую минуту, поэтому на всякий случай возьмите дождевик.";
+//   } else {
+//     para.textContent = "";
+//   }
+// }
